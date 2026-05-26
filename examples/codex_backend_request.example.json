@@ -1,0 +1,6 @@
+{
+  "task_id": "example-xps-xas-folder-analysis",
+  "input": "/path/to/xps_or_xas_file_or_folder",
+  "output": "outputs/example_xps_xas_backend_report",
+  "response_path": "outputs/example_xps_xas_backend_report/codex_response.json"
+}

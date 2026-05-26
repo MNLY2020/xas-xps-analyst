@@ -1,0 +1,70 @@
+{
+  "artifacts": {
+    "file_manifest_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/file_manifest.json",
+    "limitations_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/limitations.md",
+    "next_steps_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/next_steps.md",
+    "qc_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/qc.json",
+    "results_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/results.json",
+    "summary_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/summary.md",
+    "xps_backend_fit_results_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_backend_fit_results.json",
+    "xps_backend_probe_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_backend_probe.json",
+    "xps_reference_assignments_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_reference_assignments.json",
+    "xps_reference_gaps_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_reference_gaps.json"
+  },
+  "codex_summary": {
+    "can_run": true,
+    "short_answer": "XPS/XAS folder analysis completed. XPS backend fits and review-required reference valence/chemical-state candidates are available when supported by parsed spectra.",
+    "xas_modeling_status": "未建模",
+    "xps_reference_candidate_boundary": "Reference candidates are hypotheses for review, not final valence, chemical-state, oxidation-state, or coordination conclusions."
+  },
+  "generated_at": "2026-05-13T04:39:11.769323+00:00",
+  "input": "/root/WORK/Exp-data",
+  "metrics": {
+    "file_parse_success_rate": 1.0,
+    "files_parsed": 9,
+    "files_seen": 9,
+    "qc_error_count": 0,
+    "qc_warning_count": 4,
+    "record_parse_success_rate": 0.9393939393939394,
+    "report_safety_check_passed": true,
+    "xas_files_parsed": 5,
+    "xps_backend_fit_attempt_count": 24,
+    "xps_backend_fit_failed_count": 0,
+    "xps_backend_fit_success_count": 24,
+    "xps_backend_method": "lmfit_gaussian_least_squares_v1",
+    "xps_files_parsed": 4,
+    "xps_records": 28,
+    "xps_reference_assignment_count": 15,
+    "xps_reference_assignment_review_required_count": 15,
+    "xps_reference_gap_count": 10,
+    "xps_reference_gap_coverage": 0.5833333333333334,
+    "xps_reference_gap_review_required_count": 10
+  },
+  "ok": true,
+  "output_dir": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check",
+  "recommended_next_actions": [
+    "Read summary_md first for a human overview.",
+    "Use xps_reference_assignments_json as review-required candidate evidence only.",
+    "Use xps_reference_gaps_json to see fitted XPS records that need reference-library review.",
+    "Require calibration/background/constraints/human review before final XPS state claims.",
+    "Keep XAS valence or coordination claims disabled until a separate XAS modeling backend runs."
+  ],
+  "safety": {
+    "boundary": "review_required_reference_candidates_not_final_claims",
+    "passed": true,
+    "qc_errors": 0,
+    "unsupported_claims_rejected": [
+      "final_valence",
+      "final_chemical_state",
+      "final_oxidation_state",
+      "coordination_number",
+      "final_chemical_state_from_peak_fit"
+    ],
+    "xps_backend_fit_failed_count": 0,
+    "xps_backend_fit_success_count": 24,
+    "xps_reference_assignment_count": 15,
+    "xps_reference_gap_count": 10
+  },
+  "status": "completed",
+  "task_id": "codex-backend-gap-check"
+}

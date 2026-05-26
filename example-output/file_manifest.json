@@ -1,0 +1,94 @@
+[
+  {
+    "file": "XAS-202605/New_Pd_ZFY/3",
+    "modality": "XAS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 1,
+    "size_bytes": 19292,
+    "suffix": "(none)"
+  },
+  {
+    "file": "XAS-202605/New_Pd_ZFY/4",
+    "modality": "XAS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 1,
+    "size_bytes": 20161,
+    "suffix": "(none)"
+  },
+  {
+    "file": "XAS-202605/New_Pd_ZFY/5",
+    "modality": "XAS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 1,
+    "size_bytes": 20320,
+    "suffix": "(none)"
+  },
+  {
+    "file": "XAS-202605/New_Pd_ZFY/6",
+    "modality": "XAS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 1,
+    "size_bytes": 20275,
+    "suffix": "(none)"
+  },
+  {
+    "file": "XAS-202605/New_Pd_ZFY/Pd_Foil_2",
+    "modality": "XAS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 1,
+    "size_bytes": 33838,
+    "suffix": "(none)"
+  },
+  {
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "modality": "XPS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 6,
+    "size_bytes": 64398,
+    "suffix": ".vms"
+  },
+  {
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "modality": "XPS",
+    "parse_statuses": [
+      "no_numeric_rows",
+      "parsed"
+    ],
+    "record_count": 8,
+    "size_bytes": 194356,
+    "suffix": ".xlsx"
+  },
+  {
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "modality": "XPS",
+    "parse_statuses": [
+      "parsed"
+    ],
+    "record_count": 6,
+    "size_bytes": 64392,
+    "suffix": ".vms"
+  },
+  {
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "modality": "XPS",
+    "parse_statuses": [
+      "no_numeric_rows",
+      "parsed"
+    ],
+    "record_count": 8,
+    "size_bytes": 198082,
+    "suffix": ".xlsx"
+  }
+]

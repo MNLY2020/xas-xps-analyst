@@ -1,0 +1,56 @@
+{
+  "delivery_id": "quest002-codex-backend-delivery-20260513",
+  "quest_id": "002",
+  "title": "XPS/XAS Codex Backend Agent MVP",
+  "delivery_status": "deliverable",
+  "delivery_level": "backend_mvp_beta",
+  "workspace_root": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1",
+  "verified_input": "/root/WORK/Exp-data",
+  "verified_command": ".venv-xps-backend/bin/python experiments/main/xas-xps-local-agent-mvp-v1/scripts/codex_backend_agent.py --task-id codex-backend-gap-check --input /root/WORK/Exp-data --output outputs/xas_xps_agent_codex_backend_gap_check",
+  "verified_output_dir": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check",
+  "artifacts": {
+    "summary_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/summary.md",
+    "results_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/results.json",
+    "codex_response_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/codex_response.json",
+    "file_manifest_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/file_manifest.json",
+    "qc_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/qc.json",
+    "xps_backend_probe_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_backend_probe.json",
+    "xps_backend_fit_results_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_backend_fit_results.json",
+    "xps_reference_assignments_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_reference_assignments.json",
+    "xps_reference_gaps_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/xps_reference_gaps.json",
+    "limitations_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/limitations.md",
+    "next_steps_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/outputs/xas_xps_agent_codex_backend_gap_check/next_steps.md",
+    "usage_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/experiments/main/xas-xps-local-agent-mvp-v1/USAGE.md",
+    "backend_contract_md": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/experiments/main/xas-xps-local-agent-mvp-v1/BACKEND_CONTRACT.md",
+    "request_template_json": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/experiments/main/xas-xps-local-agent-mvp-v1/examples/codex_backend_request.example.json"
+  },
+  "verified_metrics": {
+    "files_seen": 9,
+    "files_parsed": 9,
+    "file_parse_success_rate": 1.0,
+    "record_parse_success_rate": 0.9393939393939394,
+    "qc_error_count": 0,
+    "qc_warning_count": 4,
+    "xps_backend_method": "lmfit_gaussian_least_squares_v1",
+    "xps_backend_fit_attempt_count": 24,
+    "xps_backend_fit_success_count": 24,
+    "xps_backend_fit_failed_count": 0,
+    "xps_reference_assignment_count": 15,
+    "xps_reference_gap_count": 10
+  },
+  "claim_status": {
+    "backend_entrypoint": "supported",
+    "real_file_parsing": "supported",
+    "qc_bundle": "supported",
+    "xps_numerical_backend_fit": "supported",
+    "xps_reference_valence_chemical_state_candidates": "partially_supported_review_required",
+    "final_xps_scientific_conclusions": "unsupported",
+    "xas_modeling": "deferred"
+  },
+  "scientific_boundaries": [
+    "XPS reference assignments are review-required candidates only.",
+    "Do not present candidate valence or chemical-state rows as final scientific conclusions.",
+    "Do not infer oxidation state or coordination number without reviewed evidence.",
+    "XAS remains unmodeled in this delivery."
+  ]
+}

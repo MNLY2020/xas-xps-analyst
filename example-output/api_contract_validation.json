@@ -1,0 +1,28 @@
+{
+  "contract_ok": true,
+  "files": "9/9",
+  "missing_artifact_paths": [],
+  "missing_required_artifacts": [],
+  "missing_top_level_keys": [],
+  "reference_candidates": {
+    "count": 15,
+    "review_required": 15
+  },
+  "reference_gaps": {
+    "count": 10,
+    "coverage": 0.5833333333333334,
+    "review_required": 10
+  },
+  "unsupported_claims_rejected": [
+    "final_valence",
+    "final_chemical_state",
+    "final_oxidation_state",
+    "coordination_number",
+    "final_chemical_state_from_peak_fit"
+  ],
+  "xas_modeling_status": "未建模",
+  "xps_backend_fits": {
+    "failed": 0,
+    "success": 24
+  }
+}

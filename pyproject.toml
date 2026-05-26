@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xas-xps-codex-backend-agent"
+version = "0.1.0"
+description = "Codex-callable local backend MVP for XAS/XPS file parsing, XPS fitting triage, and bounded report generation."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "DeepScientist Quest002" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+xps-backend = [
+  "lmfit",
+  "numpy"
+]
+
+[project.scripts]
+xas-xps-agent = "xas_xps_agent.run_xas_xps_agent:main"
+xas-xps-codex-backend = "xas_xps_agent.codex_backend_agent:main"
+xas-xps-probe-kherve = "xas_xps_agent.probe_khervefitting_backend:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

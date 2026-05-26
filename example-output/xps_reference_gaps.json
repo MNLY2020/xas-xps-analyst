@@ -1,0 +1,214 @@
+[
+  {
+    "element_hints": [
+      "C"
+    ],
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_quality": "可参考",
+    "fit_quality_category": "reference_candidate",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      283.000169,
+      285.210524
+    ],
+    "peak_count": 2,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "C 1s",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-1.vms__C_1s",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__C_1s"
+  },
+  {
+    "element_hints": [],
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_quality": "偏弱",
+    "fit_quality_category": "weak_fit",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      3.951156,
+      5.76688,
+      5.76694,
+      8.102206,
+      21.210193,
+      23.817334
+    ],
+    "peak_count": 6,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Vb",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-1.vms__Vb",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__Vb"
+  },
+  {
+    "element_hints": [],
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_quality": "可参考",
+    "fit_quality_category": "reference_candidate",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      35.589773,
+      329.746971,
+      346.153782
+    ],
+    "peak_count": 3,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Sheet7",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-1.xlsx__Sheet7",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet7"
+  },
+  {
+    "element_hints": [],
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_quality": "偏弱",
+    "fit_quality_category": "weak_fit",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      5.751487,
+      7.567175,
+      7.567131,
+      9.902256,
+      23.049168,
+      25.895655
+    ],
+    "peak_count": 6,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Sheet6",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-1.xlsx__Sheet6",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet6"
+  },
+  {
+    "element_hints": [
+      "Al"
+    ],
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_quality": "可参考",
+    "fit_quality_category": "reference_candidate",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      72.336328
+    ],
+    "peak_count": 1,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Al 2p",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-2.vms__Al_2p",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__Al_2p"
+  },
+  {
+    "element_hints": [],
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_quality": "偏弱",
+    "fit_quality_category": "weak_fit",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      1.466221,
+      3.950833,
+      5.233804,
+      3.759325,
+      7.897,
+      21.40877
+    ],
+    "peak_count": 6,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Vb",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-2.vms__Vb",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__Vb"
+  },
+  {
+    "element_hints": [
+      "C"
+    ],
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_quality": "偏弱",
+    "fit_quality_category": "weak_fit",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      282.788891,
+      285.025485,
+      283.640721,
+      285.02485,
+      291.048384
+    ],
+    "peak_count": 5,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "C 1s",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-2.vms__C_1s",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__C_1s"
+  },
+  {
+    "element_hints": [
+      "Pd"
+    ],
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_quality": "可参考",
+    "fit_quality_category": "reference_candidate",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      332.446164,
+      333.986625,
+      334.939465,
+      339.149969,
+      340.796921,
+      341.567929
+    ],
+    "peak_count": 6,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Pd 3d",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-2.vms__Pd_3d",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__Pd_3d"
+  },
+  {
+    "element_hints": [],
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_quality": "可参考",
+    "fit_quality_category": "reference_candidate",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      57.914693,
+      329.839197,
+      347.04937
+    ],
+    "peak_count": 3,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Sheet7",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-2.xlsx__Sheet7",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet7"
+  },
+  {
+    "element_hints": [],
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_quality": "偏弱",
+    "fit_quality_category": "weak_fit",
+    "gap_reason": "backend_fit_succeeded_but_no_peak_center_matched_current_reference_library_windows",
+    "interpretation_boundary": "reference_gap_only_not_absence_of_chemical_state_or_valence",
+    "peak_centers_ev": [
+      5.138295,
+      6.745645,
+      7.479229,
+      7.479496,
+      10.131577,
+      23.405944
+    ],
+    "peak_count": 6,
+    "recommended_action": "Review calibration, region labels, and expected chemistry; add a new reference-library window only after domain review confirms the missing element or chemical-state range.",
+    "record": "Sheet5",
+    "review_required": true,
+    "source": "XPS-fresh_20260311MaNing-2.xlsx__Sheet5",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet5"
+  }
+]

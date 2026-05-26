@@ -1,0 +1,645 @@
+[
+  {
+    "energy_range_ev": "-5.0-1200.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.060537,
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      117.0,
+      530.0,
+      555.0,
+      579.0,
+      977.0,
+      1012.0
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "wide",
+    "signal_to_background_proxy": 2.839765,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "519.0-541.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.025406,
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      529.1
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "O 1s",
+    "signal_to_background_proxy": 11.477121,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "274.0-295.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.058592,
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      282.9,
+      286.8
+    ],
+    "peak_count": 2,
+    "quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_overlapping_peaks",
+    "record": "C 1s",
+    "signal_to_background_proxy": 2.521851,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "64.0-80.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.014919,
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      72.4
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "Al 2p",
+    "signal_to_background_proxy": 17.939798,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "-5.0-30.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.223092,
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      4.6,
+      5.3,
+      6.0,
+      7.6,
+      21.2,
+      26.0
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Vb",
+    "signal_to_background_proxy": 4.177253,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "325.0-350.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.188721,
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      332.9,
+      334.1,
+      334.9,
+      337.8,
+      338.4,
+      339.0
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks",
+      "low_signal_to_background"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks,low_signal_to_background",
+    "record": "Pd 3d",
+    "signal_to_background_proxy": 0.025394,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "74.1-530.9 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "未拟合",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": null,
+    "numeric_rows": 4,
+    "parse_status": "parsed",
+    "peak_centers_ev": [],
+    "peak_count": 0,
+    "quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "quality_grade": "未拟合",
+    "reason": "not enough numeric rows for dependency-free peak fitting",
+    "record": "Sheet8",
+    "signal_to_background_proxy": null,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "5.356-351.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.248734,
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      326.800156,
+      329.800156,
+      346.300156
+    ],
+    "peak_count": 3,
+    "quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_overlapping_peaks",
+    "record": "Sheet7",
+    "signal_to_background_proxy": 0.283816,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "-3.199844-31.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.223092,
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      6.400156,
+      7.100156,
+      7.800156,
+      9.400156,
+      23.000156,
+      27.800156
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Sheet6",
+    "signal_to_background_proxy": 4.177253,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "0.193-100.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.02055,
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      74.200156
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "Sheet5",
+    "signal_to_background_proxy": 26.501095,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "0.278-296.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.055529,
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      284.700156,
+      288.600156
+    ],
+    "peak_count": 2,
+    "quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_overlapping_peaks",
+    "record": "Sheet4",
+    "signal_to_background_proxy": 2.449224,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "0.78-542.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.037399,
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      530.900156
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "Sheet3",
+    "signal_to_background_proxy": 11.321785,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "-3.199844-1201.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.060537,
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      118.800156,
+      531.800156,
+      556.800156,
+      580.800156,
+      978.800156,
+      1013.800156
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Sheet2",
+    "signal_to_background_proxy": 2.839765,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "fit_status": "未拟合",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": null,
+    "numeric_rows": 0,
+    "parse_status": "no_numeric_rows",
+    "peak_centers_ev": [],
+    "peak_count": 0,
+    "quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "quality_grade": "未拟合",
+    "reason": "not enough numeric rows for dependency-free peak fitting",
+    "record": "Sheet1",
+    "signal_to_background_proxy": null,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "-5.0-1200.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.055433,
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      117.0,
+      529.0,
+      554.0,
+      578.0,
+      977.0,
+      1014.0
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "wide",
+    "signal_to_background_proxy": 3.10287,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "519.0-541.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.03039,
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      529.5
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "O 1s",
+    "signal_to_background_proxy": 11.430904,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "64.0-80.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.0141,
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      72.3
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "Al 2p",
+    "signal_to_background_proxy": 20.661614,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "-5.0-30.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.289635,
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      4.0,
+      4.7,
+      5.5,
+      6.7,
+      7.4,
+      20.9
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Vb",
+    "signal_to_background_proxy": 4.420812,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "274.0-295.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.204905,
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      282.8,
+      285.7,
+      286.1,
+      286.7,
+      287.3
+    ],
+    "peak_count": 5,
+    "quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_overlapping_peaks",
+    "record": "C 1s",
+    "signal_to_background_proxy": 2.078711,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "325.0-350.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.143118,
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      332.6,
+      334.1,
+      334.9,
+      339.1,
+      340.9,
+      341.6
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Pd 3d",
+    "signal_to_background_proxy": 0.035033,
+    "source_type": "vms_regular_numeric"
+  },
+  {
+    "energy_range_ev": "74.2-531.5 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "未拟合",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": null,
+    "numeric_rows": 4,
+    "parse_status": "parsed",
+    "peak_centers_ev": [],
+    "peak_count": 0,
+    "quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "quality_grade": "未拟合",
+    "reason": "not enough numeric rows for dependency-free peak fitting",
+    "record": "Sheet8",
+    "signal_to_background_proxy": null,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "5.356-351.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.263531,
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      326.997173,
+      329.797173,
+      347.197173
+    ],
+    "peak_count": 3,
+    "quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_overlapping_peaks",
+    "record": "Sheet7",
+    "signal_to_background_proxy": 0.290808,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "0.278-296.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.149422,
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      284.797173,
+      287.697173,
+      288.097173,
+      288.697173,
+      289.297173
+    ],
+    "peak_count": 5,
+    "quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_overlapping_peaks",
+    "record": "Sheet6",
+    "signal_to_background_proxy": 2.089333,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "-3.002827-31.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.289635,
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      5.997173,
+      6.697173,
+      7.497173,
+      8.697173,
+      9.397173,
+      22.897173
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Sheet5",
+    "signal_to_background_proxy": 4.420812,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "0.193-100.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.018872,
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      74.297173
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "Sheet4",
+    "signal_to_background_proxy": 29.180935,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "0.78-542.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.033657,
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      531.597173
+    ],
+    "peak_count": 1,
+    "quality_flags": [],
+    "quality_grade": "可参考",
+    "reason": "dependency_free_peak_proxy_available",
+    "record": "Sheet3",
+    "signal_to_background_proxy": 11.227744,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "-3.002827-1201.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "偏弱拟合草案",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": 0.055433,
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_centers_ev": [
+      118.997173,
+      530.997173,
+      555.997173,
+      579.997173,
+      978.997173,
+      1015.997173
+    ],
+    "peak_count": 6,
+    "quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "quality_grade": "偏弱",
+    "reason": "quality_flags=crowded_or_many_candidate_peaks,crowded_or_overlapping_peaks",
+    "record": "Sheet2",
+    "signal_to_background_proxy": 3.10287,
+    "source_type": "xlsx_sheet"
+  },
+  {
+    "energy_range_ev": "",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "fit_status": "未拟合",
+    "non_claim_boundary": "draft_only_not_chemical_state_or_valence",
+    "normalized_rmse": null,
+    "numeric_rows": 0,
+    "parse_status": "no_numeric_rows",
+    "peak_centers_ev": [],
+    "peak_count": 0,
+    "quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "quality_grade": "未拟合",
+    "reason": "not enough numeric rows for dependency-free peak fitting",
+    "record": "Sheet1",
+    "signal_to_background_proxy": null,
+    "source_type": "xlsx_sheet"
+  }
+]

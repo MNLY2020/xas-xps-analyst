@@ -1,0 +1,2113 @@
+[
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-5.0-1200.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 50959.772974,
+        "center_ev_bounds": [
+          112.596915,
+          121.403085
+        ],
+        "center_ev_guess": 117.0,
+        "fwhm_ev_guess": 5.87078,
+        "height_guess": 8154.540526,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.018971,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.493091
+      },
+      {
+        "area_proxy": 187311.431496,
+        "center_ev_bounds": [
+          525.962753,
+          534.037247
+        ],
+        "center_ev_guess": 530.0,
+        "fwhm_ev_guess": 5.382997,
+        "height_guess": 32689.476349,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.069731,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.285948
+      },
+      {
+        "area_proxy": 704705.490165,
+        "center_ev_bounds": [
+          501.150473,
+          608.849527
+        ],
+        "center_ev_guess": 555.0,
+        "fwhm_ev_guess": 71.799369,
+        "height_guess": 9220.507331,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.262341,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 30.490385
+      },
+      {
+        "area_proxy": 943061.454119,
+        "center_ev_bounds": [
+          470.319534,
+          687.680466
+        ],
+        "center_ev_guess": 579.0,
+        "fwhm_ev_guess": 144.907288,
+        "height_guess": 6113.889073,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.351074,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 61.536459
+      },
+      {
+        "area_proxy": 117819.046215,
+        "center_ev_bounds": [
+          969.358136,
+          984.641864
+        ],
+        "center_ev_guess": 977.0,
+        "fwhm_ev_guess": 10.189152,
+        "height_guess": 10862.886307,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.043861,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 4.326935
+      },
+      {
+        "area_proxy": 682357.687236,
+        "center_ev_bounds": [
+          927.936954,
+          1096.063046
+        ],
+        "center_ev_guess": 1012.0,
+        "fwhm_ev_guess": 112.084061,
+        "height_guess": 5719.209682,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.254022,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 47.597718
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "wide",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__wide",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [
+      "O"
+    ],
+    "energy_range_ev": "519.0-541.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 80507.40498,
+        "center_ev_bounds": [
+          527.245466,
+          530.954534
+        ],
+        "center_ev_guess": 529.1,
+        "fwhm_ev_guess": 2.472711,
+        "height_guess": 30586.528788,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.050064
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "O 1s",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__O_1s",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [
+      "C"
+    ],
+    "energy_range_ev": "274.0-295.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 6593.192138,
+        "center_ev_bounds": [
+          281.123087,
+          284.676913
+        ],
+        "center_ev_guess": 282.9,
+        "fwhm_ev_guess": 2.369218,
+        "height_guess": 2614.319048,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.721239,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.006114
+      },
+      {
+        "area_proxy": 2548.287764,
+        "center_ev_bounds": [
+          281.632408,
+          291.967592
+        ],
+        "center_ev_guess": 286.8,
+        "fwhm_ev_guess": 6.890122,
+        "height_guess": 347.447619,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.278761,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.925965
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "C 1s",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__C_1s",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [
+      "Al"
+    ],
+    "energy_range_ev": "64.0-80.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 11832.674518,
+        "center_ev_bounds": [
+          70.746181,
+          74.053819
+        ],
+        "center_ev_guess": 72.4,
+        "fwhm_ev_guess": 2.205093,
+        "height_guess": 5041.083333,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.936417
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Al 2p",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__Al_2p",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-5.0-30.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 2860.651608,
+        "center_ev_bounds": [
+          -0.458875,
+          9.658875
+        ],
+        "center_ev_guess": 4.6,
+        "fwhm_ev_guess": 6.745166,
+        "height_guess": 398.419048,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.15039,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.864408
+      },
+      {
+        "area_proxy": 2712.404923,
+        "center_ev_bounds": [
+          0.15552,
+          10.44448
+        ],
+        "center_ev_guess": 5.3,
+        "fwhm_ev_guess": 6.859306,
+        "height_guess": 371.485714,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.142596,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.912879
+      },
+      {
+        "area_proxy": 2641.641005,
+        "center_ev_bounds": [
+          0.809009,
+          11.190991
+        ],
+        "center_ev_guess": 6.0,
+        "fwhm_ev_guess": 6.921321,
+        "height_guess": 358.552381,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.138876,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.939214
+      },
+      {
+        "area_proxy": 2762.934901,
+        "center_ev_bounds": [
+          2.484277,
+          12.715723
+        ],
+        "center_ev_guess": 7.6,
+        "fwhm_ev_guess": 6.820964,
+        "height_guess": 380.533333,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.145253,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.896597
+      },
+      {
+        "area_proxy": 6226.730413,
+        "center_ev_bounds": [
+          18.431291,
+          23.968709
+        ],
+        "center_ev_guess": 21.2,
+        "fwhm_ev_guess": 3.691612,
+        "height_guess": 1584.571429,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.327351,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.567683
+      },
+      {
+        "area_proxy": 1817.190105,
+        "center_ev_bounds": [
+          19.127998,
+          32.872002
+        ],
+        "center_ev_guess": 26.0,
+        "fwhm_ev_guess": 9.162669,
+        "height_guess": 186.314286,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.095533,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.891027
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Vb",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__Vb",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks",
+      "low_signal_to_background"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [
+      "Pd"
+    ],
+    "energy_range_ev": "325.0-350.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 530.612997,
+        "center_ev_bounds": [
+          330.496221,
+          335.303779
+        ],
+        "center_ev_guess": 332.9,
+        "fwhm_ev_guess": 3.205039,
+        "height_guess": 155.529333,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.229474,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.361055
+      },
+      {
+        "area_proxy": 424.491862,
+        "center_ev_bounds": [
+          332.662199,
+          335.537801
+        ],
+        "center_ev_guess": 334.1,
+        "fwhm_ev_guess": 1.917069,
+        "height_guess": 208.017333,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.183579,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.814104
+      },
+      {
+        "area_proxy": 481.056331,
+        "center_ev_bounds": [
+          332.363189,
+          337.436811
+        ],
+        "center_ev_guess": 334.9,
+        "fwhm_ev_guess": 3.382415,
+        "height_guess": 133.609333,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.208042,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.43638
+      },
+      {
+        "area_proxy": 285.313226,
+        "center_ev_bounds": [
+          336.267856,
+          339.332144
+        ],
+        "center_ev_guess": 337.8,
+        "fwhm_ev_guess": 2.042858,
+        "height_guess": 131.205333,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.123389,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.867522
+      },
+      {
+        "area_proxy": 278.019188,
+        "center_ev_bounds": [
+          337.386879,
+          339.413121
+        ],
+        "center_ev_guess": 338.4,
+        "fwhm_ev_guess": 1.350827,
+        "height_guess": 193.349333,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.120235,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.573644
+      },
+      {
+        "area_proxy": 312.812364,
+        "center_ev_bounds": [
+          337.656858,
+          340.343142
+        ],
+        "center_ev_guess": 339.0,
+        "fwhm_ev_guess": 1.790856,
+        "height_guess": 164.093333,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.135282,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.760507
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Pd 3d",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-1.vms__Pd_3d",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [
+      "not enough numeric rows for dependency-free peak fitting",
+      "record_is_unfitted"
+    ],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "未拟合",
+    "draft_quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "draft_quality_grade": "未拟合",
+    "element_hints": [],
+    "energy_range_ev": "74.1-530.9 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 4,
+    "parse_status": "parsed",
+    "peak_guesses": [],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet8",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet8",
+    "task_status": "not_ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "5.356-351.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 132637.532431,
+        "center_ev_bounds": [
+          241.910296,
+          411.690017
+        ],
+        "center_ev_guess": 326.800156,
+        "fwhm_ev_guess": 113.186481,
+        "height_guess": 1100.879203,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.996962,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 48.065873
+      },
+      {
+        "area_proxy": 157.427332,
+        "center_ev_bounds": [
+          329.536359,
+          330.063954
+        ],
+        "center_ev_guess": 329.800156,
+        "fwhm_ev_guess": 0.35173,
+        "height_guess": 420.473866,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.001183,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.149366
+      },
+      {
+        "area_proxy": 246.746979,
+        "center_ev_bounds": [
+          346.014863,
+          346.58545
+        ],
+        "center_ev_guess": 346.300156,
+        "fwhm_ev_guess": 0.380391,
+        "height_guess": 609.381934,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.001855,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.161537
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet7",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet7",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-3.199844-31.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 4767.75268,
+        "center_ev_bounds": [
+          1.341282,
+          11.459031
+        ],
+        "center_ev_guess": 6.400156,
+        "fwhm_ev_guess": 6.745166,
+        "height_guess": 664.031746,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.15039,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.864408
+      },
+      {
+        "area_proxy": 4520.674872,
+        "center_ev_bounds": [
+          1.955677,
+          12.244636
+        ],
+        "center_ev_guess": 7.100156,
+        "fwhm_ev_guess": 6.859306,
+        "height_guess": 619.142857,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.142596,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.912879
+      },
+      {
+        "area_proxy": 4402.735008,
+        "center_ev_bounds": [
+          2.609166,
+          12.991147
+        ],
+        "center_ev_guess": 7.800156,
+        "fwhm_ev_guess": 6.921321,
+        "height_guess": 597.587302,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.138876,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.939214
+      },
+      {
+        "area_proxy": 4604.891502,
+        "center_ev_bounds": [
+          4.284434,
+          14.515879
+        ],
+        "center_ev_guess": 9.400156,
+        "fwhm_ev_guess": 6.820964,
+        "height_guess": 634.222222,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.145253,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.896597
+      },
+      {
+        "area_proxy": 10377.884022,
+        "center_ev_bounds": [
+          20.231448,
+          25.768865
+        ],
+        "center_ev_guess": 23.000156,
+        "fwhm_ev_guess": 3.691612,
+        "height_guess": 2640.952381,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.327351,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.567683
+      },
+      {
+        "area_proxy": 3028.650175,
+        "center_ev_bounds": [
+          20.928155,
+          34.672158
+        ],
+        "center_ev_guess": 27.800156,
+        "fwhm_ev_guess": 9.162669,
+        "height_guess": 310.52381,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.095533,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.891027
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet6",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet6",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [],
+    "energy_range_ev": "0.193-100.0 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 40714.766335,
+        "center_ev_bounds": [
+          72.526878,
+          75.873435
+        ],
+        "center_ev_guess": 74.200156,
+        "fwhm_ev_guess": 2.231038,
+        "height_guess": 17144.026985,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.947434
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet5",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet5",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "0.278-296.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 24698.344633,
+        "center_ev_bounds": [
+          282.944237,
+          286.456076
+        ],
+        "center_ev_guess": 284.700156,
+        "fwhm_ev_guess": 2.341226,
+        "height_guess": 9910.425966,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.740746,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.994227
+      },
+      {
+        "area_proxy": 8644.189304,
+        "center_ev_bounds": [
+          283.587568,
+          293.612745
+        ],
+        "center_ev_guess": 288.600156,
+        "fwhm_ev_guess": 6.683452,
+        "height_guess": 1215.041847,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.259254,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.838201
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet4",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet4",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [],
+    "energy_range_ev": "0.78-542.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 232794.943326,
+        "center_ev_bounds": [
+          529.077834,
+          532.722479
+        ],
+        "center_ev_guess": 530.900156,
+        "fwhm_ev_guess": 2.429763,
+        "height_guess": 90007.23004,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.031825
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet3",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet3",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-3.199844-1201.800156 eV",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 512148.227919,
+        "center_ev_bounds": [
+          114.397072,
+          123.203241
+        ],
+        "center_ev_guess": 118.800156,
+        "fwhm_ev_guess": 5.87078,
+        "height_guess": 81953.533854,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.018971,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.493091
+      },
+      {
+        "area_proxy": 1882489.110736,
+        "center_ev_bounds": [
+          527.762909,
+          535.837404
+        ],
+        "center_ev_guess": 531.800156,
+        "fwhm_ev_guess": 5.382997,
+        "height_guess": 328530.847104,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.069731,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.285948
+      },
+      {
+        "area_proxy": 7082324.879552,
+        "center_ev_bounds": [
+          502.95063,
+          610.649683
+        ],
+        "center_ev_guess": 556.800156,
+        "fwhm_ev_guess": 71.799369,
+        "height_guess": 92666.552738,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.262341,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 30.490385
+      },
+      {
+        "area_proxy": 9477814.055185,
+        "center_ev_bounds": [
+          472.11969,
+          689.480623
+        ],
+        "center_ev_guess": 580.800156,
+        "fwhm_ev_guess": 144.907288,
+        "height_guess": 61444.886267,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.351074,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 61.536459
+      },
+      {
+        "area_proxy": 1184087.216483,
+        "center_ev_bounds": [
+          971.158292,
+          986.442021
+        ],
+        "center_ev_guess": 978.800156,
+        "fwhm_ev_guess": 10.189152,
+        "height_guess": 109172.542331,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.043861,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 4.326935
+      },
+      {
+        "area_proxy": 6857728.359594,
+        "center_ev_bounds": [
+          929.73711,
+          1097.863202
+        ],
+        "center_ev_guess": 1013.800156,
+        "fwhm_ev_guess": 112.084061,
+        "height_guess": 57478.338947,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.254022,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 47.597718
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet2",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet2",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [
+      "not enough numeric rows for dependency-free peak fitting",
+      "record_is_unfitted"
+    ],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "未拟合",
+    "draft_quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "draft_quality_grade": "未拟合",
+    "element_hints": [],
+    "energy_range_ev": "",
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 0,
+    "parse_status": "no_numeric_rows",
+    "peak_guesses": [],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet1",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-1.xlsx__Sheet1",
+    "task_status": "not_ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-5.0-1200.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 54389.820309,
+        "center_ev_bounds": [
+          112.539353,
+          121.460647
+        ],
+        "center_ev_guess": 117.0,
+        "fwhm_ev_guess": 5.94753,
+        "height_guess": 8591.100415,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.018969,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.525683
+      },
+      {
+        "area_proxy": 198798.591483,
+        "center_ev_bounds": [
+          525.043664,
+          532.956336
+        ],
+        "center_ev_guess": 529.0,
+        "fwhm_ev_guess": 5.275114,
+        "height_guess": 35403.747718,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.069334,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.240135
+      },
+      {
+        "area_proxy": 745050.731121,
+        "center_ev_bounds": [
+          499.609804,
+          608.390196
+        ],
+        "center_ev_guess": 554.0,
+        "fwhm_ev_guess": 72.520262,
+        "height_guess": 9651.487967,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.259847,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 30.79652
+      },
+      {
+        "area_proxy": 1018904.410232,
+        "center_ev_bounds": [
+          464.385142,
+          691.614858
+        ],
+        "center_ev_guess": 578.0,
+        "fwhm_ev_guess": 151.486477,
+        "height_guess": 6318.694606,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.355358,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 64.330384
+      },
+      {
+        "area_proxy": 130800.196616,
+        "center_ev_bounds": [
+          969.003289,
+          984.996711
+        ],
+        "center_ev_guess": 977.0,
+        "fwhm_ev_guess": 10.662281,
+        "height_guess": 11524.604979,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.045618,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 4.527854
+      },
+      {
+        "area_proxy": 719319.833446,
+        "center_ev_bounds": [
+          930.813646,
+          1097.186354
+        ],
+        "center_ev_guess": 1014.0,
+        "fwhm_ev_guess": 110.915139,
+        "height_guess": 6092.548548,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.250873,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 47.101323
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "wide",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__wide",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [
+      "O"
+    ],
+    "energy_range_ev": "519.0-541.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 88589.282959,
+        "center_ev_bounds": [
+          527.387089,
+          531.612911
+        ],
+        "center_ev_guess": 529.5,
+        "fwhm_ev_guess": 2.817214,
+        "height_guess": 29541.266667,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.196361
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "O 1s",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__O_1s",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [
+      "Al"
+    ],
+    "energy_range_ev": "64.0-80.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 12992.053351,
+        "center_ev_bounds": [
+          70.646867,
+          73.953133
+        ],
+        "center_ev_guess": 72.3,
+        "fwhm_ev_guess": 2.204177,
+        "height_guess": 5537.3125,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.936028
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Al 2p",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__Al_2p",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-5.0-30.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 1514.13034,
+        "center_ev_bounds": [
+          -1.177316,
+          9.177316
+        ],
+        "center_ev_guess": 4.0,
+        "fwhm_ev_guess": 6.903087,
+        "height_guess": 206.057143,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.139124,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.931471
+      },
+      {
+        "area_proxy": 1503.259656,
+        "center_ev_bounds": [
+          -0.49307,
+          9.89307
+        ],
+        "center_ev_guess": 4.7,
+        "fwhm_ev_guess": 6.924093,
+        "height_guess": 203.957143,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.138125,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.940391
+      },
+      {
+        "area_proxy": 1491.470807,
+        "center_ev_bounds": [
+          0.289998,
+          10.710002
+        ],
+        "center_ev_guess": 5.5,
+        "fwhm_ev_guess": 6.94667,
+        "height_guess": 201.7,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.137042,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.949979
+      },
+      {
+        "area_proxy": 1395.755305,
+        "center_ev_bounds": [
+          1.32067,
+          12.07933
+        ],
+        "center_ev_guess": 6.7,
+        "fwhm_ev_guess": 7.17244,
+        "height_guess": 182.814286,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.128247,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.045855
+      },
+      {
+        "area_proxy": 1562.911798,
+        "center_ev_bounds": [
+          2.295131,
+          12.504869
+        ],
+        "center_ev_guess": 7.4,
+        "fwhm_ev_guess": 6.806492,
+        "height_guess": 215.714286,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.143606,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.890451
+      },
+      {
+        "area_proxy": 3415.803604,
+        "center_ev_bounds": [
+          18.136537,
+          23.663463
+        ],
+        "center_ev_guess": 20.9,
+        "fwhm_ev_guess": 3.684617,
+        "height_guess": 870.9,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.313856,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.564713
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Vb",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__Vb",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [
+      "C"
+    ],
+    "energy_range_ev": "274.0-295.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 11080.693938,
+        "center_ev_bounds": [
+          281.021126,
+          284.578874
+        ],
+        "center_ev_guess": 282.8,
+        "fwhm_ev_guess": 2.371832,
+        "height_guess": 4388.850794,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.400592,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.007224
+      },
+      {
+        "area_proxy": 4840.123903,
+        "center_ev_bounds": [
+          280.563205,
+          290.836795
+        ],
+        "center_ev_guess": 285.7,
+        "fwhm_ev_guess": 6.84906,
+        "height_guess": 663.885714,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.174981,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.908528
+      },
+      {
+        "area_proxy": 4604.477863,
+        "center_ev_bounds": [
+          280.911498,
+          291.288502
+        ],
+        "center_ev_guess": 286.1,
+        "fwhm_ev_guess": 6.918002,
+        "height_guess": 625.269841,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.166462,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.937805
+      },
+      {
+        "area_proxy": 3753.315261,
+        "center_ev_bounds": [
+          281.363456,
+          292.036544
+        ],
+        "center_ev_guess": 286.7,
+        "fwhm_ev_guess": 7.115392,
+        "height_guess": 495.546032,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.135691,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.021629
+      },
+      {
+        "area_proxy": 3382.168134,
+        "center_ev_bounds": [
+          281.881899,
+          292.718101
+        ],
+        "center_ev_guess": 287.3,
+        "fwhm_ev_guess": 7.224134,
+        "height_guess": 439.822222,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.122273,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.067807
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "C 1s",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__C_1s",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "axis": "binding_energy_ev_from_photon_minus_kinetic_energy",
+      "basis": "REGULAR VAMAS numeric payload reconstructed when data-count and dependent-variable counts match metadata",
+      "energy_window_metadata": [
+        "Start",
+        "End",
+        "Step size",
+        "Number Steps"
+      ],
+      "intensity": "first VAMAS dependent variable named Intensity"
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [
+      "Pd"
+    ],
+    "energy_range_ev": "325.0-350.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 127.467795,
+        "center_ev_bounds": [
+          331.804574,
+          333.395426
+        ],
+        "center_ev_guess": 332.6,
+        "fwhm_ev_guess": 1.060568,
+        "height_guess": 112.909333,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.059886,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.450382
+      },
+      {
+        "area_proxy": 667.869844,
+        "center_ev_bounds": [
+          332.455522,
+          335.744478
+        ],
+        "center_ev_guess": 334.1,
+        "fwhm_ev_guess": 2.192638,
+        "height_guess": 286.149333,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.313773,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.931128
+      },
+      {
+        "area_proxy": 653.017862,
+        "center_ev_bounds": [
+          333.165232,
+          336.634768
+        ],
+        "center_ev_guess": 334.9,
+        "fwhm_ev_guess": 2.313023,
+        "height_guess": 265.224,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.306795,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.982251
+      },
+      {
+        "area_proxy": 265.481762,
+        "center_ev_bounds": [
+          338.084602,
+          340.115398
+        ],
+        "center_ev_guess": 339.1,
+        "fwhm_ev_guess": 1.353864,
+        "height_guess": 184.216,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.124726,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.574933
+      },
+      {
+        "area_proxy": 208.223773,
+        "center_ev_bounds": [
+          339.814739,
+          341.985261
+        ],
+        "center_ev_guess": 340.9,
+        "fwhm_ev_guess": 1.447014,
+        "height_guess": 135.184,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.097826,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.61449
+      },
+      {
+        "area_proxy": 206.454006,
+        "center_ev_bounds": [
+          340.414959,
+          342.785041
+        ],
+        "center_ev_guess": 341.6,
+        "fwhm_ev_guess": 1.580054,
+        "height_guess": 122.749333,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.096994,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.670987
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Pd 3d",
+    "source_type": "vms_regular_numeric",
+    "task_id": "XPS-fresh_20260311MaNing-2.vms__Pd_3d",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [
+      "not enough numeric rows for dependency-free peak fitting",
+      "record_is_unfitted"
+    ],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "未拟合",
+    "draft_quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "draft_quality_grade": "未拟合",
+    "element_hints": [],
+    "energy_range_ev": "74.2-531.5 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 4,
+    "parse_status": "parsed",
+    "peak_guesses": [],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet8",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet8",
+    "task_status": "not_ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "5.356-351.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 251,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 137025.36673,
+        "center_ev_bounds": [
+          242.134654,
+          411.859692
+        ],
+        "center_ev_guess": 326.997173,
+        "fwhm_ev_guess": 113.150026,
+        "height_guess": 1137.664238,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.996669,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 48.050392
+      },
+      {
+        "area_proxy": 178.354669,
+        "center_ev_bounds": [
+          329.527824,
+          330.066522
+        ],
+        "center_ev_guess": 329.797173,
+        "fwhm_ev_guess": 0.359132,
+        "height_guess": 466.550254,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.001297,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.152509
+      },
+      {
+        "area_proxy": 279.586155,
+        "center_ev_bounds": [
+          346.905273,
+          347.489073
+        ],
+        "center_ev_guess": 347.197173,
+        "fwhm_ev_guess": 0.3892,
+        "height_guess": 674.85507,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.002034,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.165278
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet7",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet7",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "0.278-296.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 211,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 20979.756802,
+        "center_ev_bounds": [
+          283.030494,
+          286.563853
+        ],
+        "center_ev_guess": 284.797173,
+        "fwhm_ev_guess": 2.355573,
+        "height_guess": 8367.038319,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.407421,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.00032
+      },
+      {
+        "area_proxy": 8913.764112,
+        "center_ev_bounds": [
+          282.591261,
+          292.803085
+        ],
+        "center_ev_guess": 287.697173,
+        "fwhm_ev_guess": 6.807883,
+        "height_guess": 1230.033256,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.173103,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.891042
+      },
+      {
+        "area_proxy": 8492.554755,
+        "center_ev_bounds": [
+          282.940292,
+          293.254055
+        ],
+        "center_ev_guess": 288.097173,
+        "fwhm_ev_guess": 6.875842,
+        "height_guess": 1160.326576,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.164923,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.919901
+      },
+      {
+        "area_proxy": 6889.868473,
+        "center_ev_bounds": [
+          283.406517,
+          293.98783
+        ],
+        "center_ev_guess": 288.697173,
+        "fwhm_ev_guess": 7.054209,
+        "height_guess": 917.551417,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.133799,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.995647
+      },
+      {
+        "area_proxy": 6218.154351,
+        "center_ev_bounds": [
+          283.936144,
+          294.658202
+        ],
+        "center_ev_guess": 289.297173,
+        "fwhm_ev_guess": 7.148039,
+        "height_guess": 817.226401,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.120755,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.035493
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet6",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet6",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-3.002827-31.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 351,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 5047.101135,
+        "center_ev_bounds": [
+          0.819858,
+          11.174489
+        ],
+        "center_ev_guess": 5.997173,
+        "fwhm_ev_guess": 6.903087,
+        "height_guess": 686.857143,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.139124,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.931471
+      },
+      {
+        "area_proxy": 5010.865521,
+        "center_ev_bounds": [
+          1.504104,
+          11.890243
+        ],
+        "center_ev_guess": 6.697173,
+        "fwhm_ev_guess": 6.924093,
+        "height_guess": 679.857143,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.138125,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.940391
+      },
+      {
+        "area_proxy": 4971.569356,
+        "center_ev_bounds": [
+          2.287171,
+          12.707176
+        ],
+        "center_ev_guess": 7.497173,
+        "fwhm_ev_guess": 6.94667,
+        "height_guess": 672.333333,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.137042,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.949979
+      },
+      {
+        "area_proxy": 4652.517684,
+        "center_ev_bounds": [
+          3.317843,
+          14.076504
+        ],
+        "center_ev_guess": 8.697173,
+        "fwhm_ev_guess": 7.17244,
+        "height_guess": 609.380952,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.128247,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 3.045855
+      },
+      {
+        "area_proxy": 5209.705994,
+        "center_ev_bounds": [
+          4.292304,
+          14.502042
+        ],
+        "center_ev_guess": 9.397173,
+        "fwhm_ev_guess": 6.806492,
+        "height_guess": 719.047619,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.143606,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.890451
+      },
+      {
+        "area_proxy": 11386.012013,
+        "center_ev_bounds": [
+          20.13371,
+          25.660636
+        ],
+        "center_ev_guess": 22.897173,
+        "fwhm_ev_guess": 3.684617,
+        "height_guess": 2903.0,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.313856,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.564713
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet5",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet5",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [],
+    "energy_range_ev": "0.193-100.0 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 161,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 44484.728869,
+        "center_ev_bounds": [
+          72.628381,
+          75.965965
+        ],
+        "center_ev_guess": 74.297173,
+        "fwhm_ev_guess": 2.225056,
+        "height_guess": 18781.822933,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 0.944894
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet4",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet4",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "拟合草案",
+    "draft_quality_flags": [],
+    "draft_quality_grade": "可参考",
+    "element_hints": [],
+    "energy_range_ev": "0.78-542.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 221,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 256950.920039,
+        "center_ev_bounds": [
+          529.517888,
+          533.676458
+        ],
+        "center_ev_guess": 531.597173,
+        "fwhm_ev_guess": 2.77238,
+        "height_guess": 87069.329755,
+        "peak_id": "p1",
+        "relative_area_proxy": 1.0,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 1.177321
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet3",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet3",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "偏弱拟合草案",
+    "draft_quality_flags": [
+      "crowded_or_many_candidate_peaks",
+      "crowded_or_overlapping_peaks"
+    ],
+    "draft_quality_grade": "偏弱",
+    "element_hints": [],
+    "energy_range_ev": "-3.002827-1201.997173 eV",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 1206,
+    "parse_status": "parsed",
+    "peak_guesses": [
+      {
+        "area_proxy": 546620.372544,
+        "center_ev_bounds": [
+          114.536526,
+          123.457821
+        ],
+        "center_ev_guess": 118.997173,
+        "fwhm_ev_guess": 5.94753,
+        "height_guess": 86340.982241,
+        "peak_id": "p1",
+        "relative_area_proxy": 0.018969,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.525683
+      },
+      {
+        "area_proxy": 1997935.63429,
+        "center_ev_bounds": [
+          527.040838,
+          534.953509
+        ],
+        "center_ev_guess": 530.997173,
+        "fwhm_ev_guess": 5.275114,
+        "height_guess": 355809.40803,
+        "peak_id": "p2",
+        "relative_area_proxy": 0.069334,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 2.240135
+      },
+      {
+        "area_proxy": 7487796.537966,
+        "center_ev_bounds": [
+          501.606977,
+          610.387369
+        ],
+        "center_ev_guess": 555.997173,
+        "fwhm_ev_guess": 72.520262,
+        "height_guess": 96997.929356,
+        "peak_id": "p3",
+        "relative_area_proxy": 0.259847,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 30.79652
+      },
+      {
+        "area_proxy": 10240039.499027,
+        "center_ev_bounds": [
+          466.382315,
+          693.612031
+        ],
+        "center_ev_guess": 579.997173,
+        "fwhm_ev_guess": 151.486477,
+        "height_guess": 63503.191954,
+        "peak_id": "p4",
+        "relative_area_proxy": 0.355358,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 64.330384
+      },
+      {
+        "area_proxy": 1314548.417277,
+        "center_ev_bounds": [
+          971.000462,
+          986.993884
+        ],
+        "center_ev_guess": 978.997173,
+        "fwhm_ev_guess": 10.662281,
+        "height_guess": 115822.847573,
+        "peak_id": "p5",
+        "relative_area_proxy": 0.045618,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 4.527854
+      },
+      {
+        "area_proxy": 7229199.749216,
+        "center_ev_bounds": [
+          932.810819,
+          1099.183527
+        ],
+        "center_ev_guess": 1015.997173,
+        "fwhm_ev_guess": 110.915139,
+        "height_guess": 61230.412934,
+        "peak_id": "p6",
+        "relative_area_proxy": 0.250873,
+        "shape_hint": "gaussian_initial_guess_only",
+        "sigma_ev_guess": 47.101323
+      }
+    ],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet2",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet2",
+    "task_status": "ready_for_backend_fit"
+  },
+  {
+    "backend_needed": "KherveFitting/lmfit-style nonlinear fitting backend with approved dependencies",
+    "background_model_hint": "linear_endpoint_background_from_dependency_free_draft",
+    "blocking_reasons": [
+      "not enough numeric rows for dependency-free peak fitting",
+      "record_is_unfitted"
+    ],
+    "column_roles": {
+      "basis": "first two numeric cells per row are treated as axis/intensity candidate columns",
+      "binding_energy_or_axis_column": 1,
+      "intensity_column": 2
+    },
+    "draft_fit_status": "未拟合",
+    "draft_quality_flags": [
+      "not_enough_numeric_rows",
+      "too_few_numeric_points"
+    ],
+    "draft_quality_grade": "未拟合",
+    "element_hints": [],
+    "energy_range_ev": "",
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "non_claim_boundary": "handoff_only_not_formal_fit_not_chemical_state_or_valence",
+    "numeric_rows": 0,
+    "parse_status": "no_numeric_rows",
+    "peak_guesses": [],
+    "peak_model_hint": "Gaussian initial guesses only; choose final peak shapes manually before trusted fitting",
+    "record": "Sheet1",
+    "source_type": "xlsx_sheet",
+    "task_id": "XPS-fresh_20260311MaNing-2.xlsx__Sheet1",
+    "task_status": "not_ready_for_backend_fit"
+  }
+]

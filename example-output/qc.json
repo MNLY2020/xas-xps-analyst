@@ -1,0 +1,323 @@
+[
+  {
+    "error_count": 0,
+    "file": "XAS-202605/New_Pd_ZFY/3",
+    "findings": [],
+    "modality": "XAS",
+    "parse_status": "parsed",
+    "record": "",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XAS-202605/New_Pd_ZFY/4",
+    "findings": [],
+    "modality": "XAS",
+    "parse_status": "parsed",
+    "record": "",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XAS-202605/New_Pd_ZFY/5",
+    "findings": [],
+    "modality": "XAS",
+    "parse_status": "parsed",
+    "record": "",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XAS-202605/New_Pd_ZFY/6",
+    "findings": [],
+    "modality": "XAS",
+    "parse_status": "parsed",
+    "record": "",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XAS-202605/New_Pd_ZFY/Pd_Foil_2",
+    "findings": [],
+    "modality": "XAS",
+    "parse_status": "parsed",
+    "record": "",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "wide",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "O 1s",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "C 1s",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Al 2p",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Vb",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Pd 3d",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [
+      {
+        "code": "xps_sparse_sheet",
+        "message": "XPS workbook sheet has very few numeric rows.",
+        "severity": "warning"
+      }
+    ],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet8",
+    "warning_count": 1
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet7",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet6",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet5",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet4",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet3",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet2",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-1.xlsx",
+    "findings": [
+      {
+        "code": "xps_empty_sheet",
+        "message": "XPS workbook sheet has no numeric rows.",
+        "severity": "warning"
+      }
+    ],
+    "modality": "XPS",
+    "parse_status": "no_numeric_rows",
+    "record": "Sheet1",
+    "warning_count": 1
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "wide",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "O 1s",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Al 2p",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Vb",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "C 1s",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.vms",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Pd 3d",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [
+      {
+        "code": "xps_sparse_sheet",
+        "message": "XPS workbook sheet has very few numeric rows.",
+        "severity": "warning"
+      }
+    ],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet8",
+    "warning_count": 1
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet7",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet6",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet5",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet4",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet3",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [],
+    "modality": "XPS",
+    "parse_status": "parsed",
+    "record": "Sheet2",
+    "warning_count": 0
+  },
+  {
+    "error_count": 0,
+    "file": "XPS-fresh/20260311MaNing-2.xlsx",
+    "findings": [
+      {
+        "code": "xps_empty_sheet",
+        "message": "XPS workbook sheet has no numeric rows.",
+        "severity": "warning"
+      }
+    ],
+    "modality": "XPS",
+    "parse_status": "no_numeric_rows",
+    "record": "Sheet1",
+    "warning_count": 1
+  }
+]

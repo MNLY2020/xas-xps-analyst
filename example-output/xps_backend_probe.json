@@ -1,0 +1,52 @@
+{
+  "external_backend_candidates": {
+    "khervefitting_source": {
+      "available": false,
+      "headless_import_attempted": false,
+      "missing_modules": [
+        "matplotlib",
+        "wx"
+      ],
+      "note": "Local source is present, but this monolithic GUI-style source was not executed headlessly unless required GUI/scientific-stack modules were available.",
+      "required_modules": [
+        "numpy",
+        "matplotlib",
+        "wx"
+      ],
+      "source_path": "/root/DeepScientist/quests/002/.ds/worktrees/idea-idea-9de385c1/baselines/imported/khervefitting-1.80/source/KherveFitting-1.80"
+    },
+    "lmfit": {
+      "available": true,
+      "required_modules": [
+        "numpy",
+        "scipy",
+        "lmfit"
+      ],
+      "versions": {
+        "lmfit": "1.3.4",
+        "numpy": "2.2.6",
+        "scipy": "1.15.3"
+      }
+    }
+  },
+  "non_claim_boundary": "backend_probe_only_not_chemical_state_or_valence",
+  "python_module_versions": {
+    "lmfit": "1.3.4",
+    "matplotlib": null,
+    "numpy": "2.2.6",
+    "pandas": null,
+    "scipy": "1.15.3",
+    "wx": null
+  },
+  "python_modules": {
+    "lmfit": true,
+    "matplotlib": false,
+    "numpy": true,
+    "pandas": false,
+    "scipy": true,
+    "wx": false
+  },
+  "selected_backend": "lmfit_gaussian_least_squares_v1",
+  "selected_backend_available": true,
+  "selected_backend_scope": "headless lmfit Gaussian least-squares refinement over existing XPS handoff guesses"
+}
