@@ -129,5 +129,4 @@ Key validation metrics:
 
 ## License
 
-No open-source license has been selected in this package. Add a license before
-publishing publicly if reuse permissions should be granted.
+Released under the `MIT` License. See `LICENSE`.
