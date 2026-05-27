@@ -1,11 +1,24 @@
 # XAS/XPS Codex Backend Agent MVP
 
+![status](https://img.shields.io/badge/status-MVP%20beta-orange)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+![scope](https://img.shields.io/badge/scope-local%20backend-informational)
+
 Codex-callable local backend MVP for chemistry characterization data.
 
 This repository packages the Quest002 deliverable as a clean GitHub-ready
 project. It focuses on local XAS/XPS file parsing, XPS fitting triage,
 QC/report-bundle generation, and a compact JSON response surface for Codex or
 another backend orchestrator.
+
+## Release note
+
+Initial public release of the Quest002 backend deliverable.
+
+- Packaged as a clean standalone repository for GitHub publication.
+- Keeps the Codex-callable local backend entrypoints and report bundle outputs.
+- Includes a verified sample output bundle under `example-output/`.
+- Excludes Quest runtime caches, orchestration state, and non-public workspace artifacts.
 
 ## What is supported
 
